@@ -16,9 +16,20 @@ print guess again and go back to loop
 
 
 run
-getRandomNumber
-for(x=1;x<=infinity;x++)
+num=getRandomNumber
+
+for(x=1;x>1;x++)
 {
-if (
+value= input "value"
+if (value==num){
+  print "congrats it took you"+x+"guesses"
+  x=0}
+else if(value<num){
+  print "guess was too low"}
+else{
+  print "guess was too high"}
+}
+print "game over"
+
 
 
